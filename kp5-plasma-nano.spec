@@ -1,16 +1,16 @@
-%define		kdeplasmaver	5.22.5
+%define		kdeplasmaver	5.23.0
 %define		qtver		5.9.0
 %define		kpname		plasma-nano
 %define		kf5ver		5.39.0
 
 Summary:	plasma-nano
 Name:		kp5-%{kpname}
-Version:	5.22.5
+Version:	5.23.0
 Release:	1
 License:	LGPL v2.1+
 Group:		X11/Libraries
 Source0:	http://download.kde.org/stable/plasma/%{kdeplasmaver}/%{kpname}-%{version}.tar.xz
-# Source0-md5:	6caf1ce970b368420720b3168f815a17
+# Source0-md5:	39850b6eb4e02381166912c38b5ded7a
 URL:		http://www.kde.org/
 BuildRequires:	Qt5Core-devel >= 5.15.0
 BuildRequires:	Qt5Gui-devel >= 5.15.0
